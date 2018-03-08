@@ -1,8 +1,9 @@
 # Thesis Plot Templates
 This contains the Python scripts which I used for generating the figures in my DPhil (PhD) thesis.
 
-_Please note that this repository does **NOT** have all scripts that I used, howerver it provides enoght information to re-genrate the figures._  
-_**The data here is only for demonstration, there is no guarantee for the correction. Please do not it for any references**_  
+_Please note: this repository does **NOT** include all of the scripts that I have used, howerver it provides enough information to re-genrate the figures._  
+
+_**"The data here is only for demonstration, there is no guarantee for the correction. Please do not it for any references"**_  
 
 ## Additional library 
 Apart from Python standard library and the general scientific library (e.g. Numpy, Scipy, Matplotlib).
