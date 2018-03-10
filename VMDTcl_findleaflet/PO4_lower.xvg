@@ -1,0 +1,74 @@
+# This file was created Sat Mar 10 16:25:24 2018
+# Created by:
+#                    :-) GROMACS - gmx traj, VERSION 5.1 (-:
+# 
+# Executable:   /sbcb/packages/opt/Linux_x86_64/gromacs/5.1/bin/gmx_sse
+# Data prefix:  /sbcb/packages/opt/Linux_x86_64/gromacs/5.1
+# Command line:
+#   gmx_sse traj -f ./test.xtc -s ./test.tpr -n leaflet.ndx -com -pbc -nojump -nox -noy -ox PO4_lower
+# gmx traj is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PO4_lower Z"
+ 0	5.58861
+ 20000	5.60032
+ 40000	5.61722
+ 60000	5.58987
+ 80000	5.61835
+ 100000	5.58994
+ 120000	5.61576
+ 140000	5.59392
+ 160000	5.60816
+ 180000	5.60006
+ 200000	5.60032
+ 220000	5.59228
+ 240000	5.59386
+ 260000	5.59658
+ 280000	5.60228
+ 300000	5.59481
+ 320000	5.60228
+ 340000	5.56329
+ 360000	5.5862
+ 380000	5.58095
+ 400000	5.60665
+ 420000	5.58544
+ 440000	5.58551
+ 460000	5.59861
+ 480000	5.59506
+ 500000	5.57171
+ 520000	5.56728
+ 540000	5.58304
+ 560000	5.57627
+ 580000	5.55905
+ 600000	5.59658
+ 620000	5.55278
+ 640000	5.58715
+ 660000	5.59114
+ 680000	5.59354
+ 700000	5.56816
+ 720000	5.57785
+ 740000	5.58766
+ 760000	5.58646
+ 780000	5.57772
+ 800000	5.57082
+ 820000	5.59063
+ 840000	5.57918
+ 860000	5.58354
+ 880000	5.60399
+ 900000	5.57506
+ 920000	5.55943
+ 940000	5.56772
+ 960000	5.55475
+ 980000	5.5738
+ 1e+06	5.56646

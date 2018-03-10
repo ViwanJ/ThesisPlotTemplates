@@ -1,0 +1,74 @@
+# This file was created Sat Mar 10 16:25:24 2018
+# Created by:
+#                    :-) GROMACS - gmx traj, VERSION 5.1 (-:
+# 
+# Executable:   /sbcb/packages/opt/Linux_x86_64/gromacs/5.1/bin/gmx_sse
+# Data prefix:  /sbcb/packages/opt/Linux_x86_64/gromacs/5.1
+# Command line:
+#   gmx_sse traj -f ./test.xtc -s ./test.tpr -n leaflet.ndx -com -pbc -nojump -nox -noy -ox PO4_upper
+# gmx traj is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PO4_upper Z"
+ 0	9.06582
+ 20000	9.05133
+ 40000	9.09044
+ 60000	9.07564
+ 80000	9.11093
+ 100000	9.08258
+ 120000	9.07649
+ 140000	9.08364
+ 160000	9.08969
+ 180000	9.05933
+ 200000	9.08471
+ 220000	9.05604
+ 240000	9.07676
+ 260000	9.07507
+ 280000	9.07729
+ 300000	9.07422
+ 320000	9.05489
+ 340000	9.03751
+ 360000	9.07355
+ 380000	9.04502
+ 400000	9.08458
+ 420000	9.06667
+ 440000	9.06991
+ 460000	9.09476
+ 480000	9.0828
+ 500000	9.07116
+ 520000	9.05982
+ 540000	9.06604
+ 560000	9.06147
+ 580000	9.038
+ 600000	9.0684
+ 620000	9.03796
+ 640000	9.06267
+ 660000	9.07444
+ 680000	9.08098
+ 700000	9.04262
+ 720000	9.07209
+ 740000	9.06622
+ 760000	9.0948
+ 780000	9.05609
+ 800000	9.06164
+ 820000	9.08307
+ 840000	9.08382
+ 860000	9.05947
+ 880000	9.09933
+ 900000	9.06387
+ 920000	9.05267
+ 940000	9.04613
+ 960000	9.04738
+ 980000	9.06516
+ 1e+06	9.07222
